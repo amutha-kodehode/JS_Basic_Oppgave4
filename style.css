@@ -99,9 +99,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: shake 3s infinite ease-in;
 }
-#cracker_img {
-  height: 40px;
-  width: 40px;
+.cracker_img {
+  height: 80px;
+  width: 80px;
+  animation: shake 1s infinite cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }

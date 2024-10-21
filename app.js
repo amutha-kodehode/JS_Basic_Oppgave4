@@ -76,13 +76,10 @@ function removeCracker() {
 function addCracker() {
   // Create a new <img> element
   const img = document.createElement("img");
-
+  img.classList.add("cracker_img");
   // Set the 'src' attribute to the image URL
   img.src = "images/cracker.png"; // Replace with the actual image URL
   img.alt = "cracker blowing image"; // Alt text for the image
-  img.style.width = "100px"; // Optional: set the image width
-  img.style.height = "auto"; // Optional: maintain aspect ratio
-
   // Append the new image to the div with id "imageContainer"
   container.appendChild(img);
 }
