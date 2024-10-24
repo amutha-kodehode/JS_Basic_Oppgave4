@@ -42,7 +42,7 @@ function findWinner(playerSelected) {
 
   setTimeout(function () {
     button.classList.remove("highlight");
-  }, 1000);
+  }, 500);
   let result;
   removeCracker();
   const computerSelected = availableSelection[Math.ceil(Math.random() * 3)];
